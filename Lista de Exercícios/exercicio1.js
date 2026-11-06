@@ -1,5 +1,8 @@
 //Cálculo da área do retangulo
-let frente = 7;
-let profundidade = 24;
+
+//Entrada de dados
+const frente = 7;
+const profundidade = 24;
+//Processamento
 let area = frente * profundidade;
-console.log(area+"m²")
+console.log(`A área do terreno é: ${area} m²`);
